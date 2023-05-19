@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(60deg, black, #221133);
+}
+
+.titulo {
+    color: gold;
+    font-family: 'Oldenburg', cursive;
+    text-align: center;
+}
+
+.trompeteImagem {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 430px;
+    top: 200px;
+}
+
+.botao {
+    padding: 30px;
+    position: relative;
+    left: 270px;
+    top: 450px;
+    background-color: gold;
+    font-size: 25px;
+    font-family: 'Oldenburg', cursive;
+    color: black;
+}
+
+.botao.ativo,
+.botao:active {
+    background-image: linear-gradient(60deg, black, #221133);
+    color: whitesmoke;
+}
